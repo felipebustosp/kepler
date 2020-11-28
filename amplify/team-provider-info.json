@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-kepler-dev-12917-authRole",
+      "UnauthRoleArn": "arn:aws:iam::343439560435:role/amplify-kepler-dev-12917-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::343439560435:role/amplify-kepler-dev-12917-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-kepler-dev-12917-deployment",
+      "UnauthRoleName": "amplify-kepler-dev-12917-unauthRole",
+      "StackName": "amplify-kepler-dev-12917",
+      "StackId": "arn:aws:cloudformation:us-east-2:343439560435:stack/amplify-kepler-dev-12917/4cedf0c0-3132-11eb-a1cd-06222de1f866",
+      "AmplifyAppId": "d3ofqqnz63fc3a"
+    },
+    "categories": {
+      "auth": {
+        "kepler08da977b": {}
+      }
+    }
+  }
+}
