@@ -1,0 +1,37 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-kepler-dev-12917-authRole",
+      "UnauthRoleArn": "arn:aws:iam::343439560435:role/amplify-kepler-dev-12917-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::343439560435:role/amplify-kepler-dev-12917-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-kepler-dev-12917-deployment",
+      "UnauthRoleName": "amplify-kepler-dev-12917-unauthRole",
+      "StackName": "amplify-kepler-dev-12917",
+      "StackId": "arn:aws:cloudformation:us-east-2:343439560435:stack/amplify-kepler-dev-12917/4cedf0c0-3132-11eb-a1cd-06222de1f866",
+      "AmplifyAppId": "d3ofqqnz63fc3a"
+    }
+  },
+  "auth": {
+    "kepler08da977b": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-kepler-dev-12917-deployment/amplify-cfn-templates/auth/kepler08da977b-cloudformation-template.yml",
+        "logicalId": "authkepler08da977b"
+      },
+      "lastPushTimeStamp": "2020-11-28T04:35:07.246Z",
+      "output": {
+        "UserPoolId": "us-east-2_W5ZWMefoo",
+        "AppClientIDWeb": "1gm3nlim70k3uj0en8gpip97gj",
+        "AppClientID": "6d0fmun0d1j1n0o05gfe78g2po",
+        "IdentityPoolId": "us-east-2:dcef811d-cbf5-4ebe-9717-40c74bb942a7",
+        "IdentityPoolName": "kepler08da977b_identitypool_08da977b__dev",
+        "UserPoolName": "kepler08da977b_userpool_08da977b"
+      },
+      "lastPushDirHash": "2aRI316xI8opUx9zpP/D0aZMAko="
+    }
+  }
+}
